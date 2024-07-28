@@ -1,0 +1,15 @@
+<head>
+  <title>SWTS modules examples </title>
+  <script>
+    navigator.serviceWorker.register('/service-worker.js')
+  </script>
+  <script type='module'>
+    import {messages} from './a.ts'
+
+    window.addEventListener('load', () => {
+      for(let msg of messages) {
+        document.write(`<span style='font-size: 3em'>${msg}</span><br>`)
+      }
+    })
+  </script>
+</head>
