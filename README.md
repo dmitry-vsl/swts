@@ -8,7 +8,7 @@ No, SWTS is intended only for development. It adds a 2.5 MB service worker and o
 
 ## Does it perform type-checking?
 
-No, it only transpiles JavaScript. Use your IDE for type-checking.
+No, it only transpiles TypeScript. Use your IDE for type-checking.
 
 ## How to use
 
