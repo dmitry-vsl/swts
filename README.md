@@ -15,7 +15,7 @@ No, it only transpiles JavaScript. Use your IDE for type-checking.
 Simply download the file containing the service worker and place it in the root directory of your website. You can do this with the following command:
 
 ```
-curl ... > my_cool_site/service-worker.js
+curl https://raw.githubusercontent.com/dmitry-vsl/swts/main/service-worker.js > my_site/service-worker.js
 ```
 
 Then, add the service worker to your HTML file:
@@ -52,11 +52,11 @@ hello('Hello, world!');
 
 If it doesn't work on the first try, refresh the page - the service worker may not have been installed yet.
 
-You can try it yourself [here]()
+You can try it yourself [here](https://dmitry-vsl.github.io/swts/examples/hello.html)
 
 ## Does it support ES modules?
 
-Absolutely! See an example [here]()
+Absolutely! See an example [here](https://dmitry-vsl.github.io/swts/examples/modules.html)
 
 ## TODO
 This project is a quick prototype. The following features are missing:
